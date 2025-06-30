@@ -1,0 +1,16 @@
+@layer utilities {
+  .animate-float-down {
+    animation: float-down 2s ease-in-out infinite;
+  }
+
+  .animate-float-up {
+    animation: float-up 2s ease-in-out infinite;
+  }
+
+  /* Tooltip hover effect for banner */
+  .hover-bg-white:hover {
+    background-color: white !important;
+    background-image: none !important;
+    color: black;
+  }
+}
